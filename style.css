@@ -1,0 +1,237 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+} 
+img{
+    max-width: 100%;
+}
+
+/* for first part */
+.first-part-content{
+	background: #2D25A0;
+	padding-top: 32px;
+	padding-bottom: 77px;
+}
+/* used for all */
+.all-container{
+    max-width: 1240px;
+    width: 95%;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin: auto;
+}
+/* for first part */
+.first-image {
+	width: 50%;
+}
+/* for first part */
+.first-text {
+	width: 50%;
+}
+/* for 1st and extra part */
+.full-content-area {
+	display: flex;
+	padding-top: 28px;
+}
+/* for first part */
+.first-text h1 {
+	color: #FFF;
+	font-weight: bold;
+	padding-top: 50px;
+	margin-bottom: 27px;
+	font-size: 64px;
+	line-height: 80px;
+}
+/* for first part */
+.first-text h1 span{
+    color:#FC8C47;
+} 
+/* for all buttton*/
+.button {
+	margin-top: 30px;
+}
+/* button anchor tag */
+.button a {
+	text-decoration: none;
+	color:#000000;
+	padding: 10px 24px;
+    border-radius: 10%;
+	cursor: pointer;
+	list-style: none;
+	background: #2ce02c;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	width: max-content;
+    transition: 0.5s;
+}
+/* for hover */
+.first-text:hover .button a{
+    background: cornsilk;
+    margin-left: 10px;
+}
+.button a img {
+	width: 16px;
+	height: 14px;
+	margin-left: 12px;
+    
+}
+/* end of the first part */
+
+/*middle part start */
+.player-detail-section {
+	padding: 70px 0;
+	background: #FFF;
+}
+/* detailling about players items */
+.all-player-item {
+	display: flex;
+	   -ms-flex-wrap: wrap;
+	    flex-wrap: wrap; 
+}
+/* single players */
+.one-player {
+    -webkit-box-flex: 0;
+	    -ms-flex: 0 0 28.33%;
+	        flex: 0 0 28.33%;  
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	padding: 15px;
+	margin: 0 auto;
+	margin-bottom: 27px;
+}
+/* single players img*/
+.one-player-img {
+	overflow: hidden;
+	height: 296px;
+}
+/* single players heading */
+.one-player h3 {
+	margin: 0;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 40px;
+	color: #18191F;
+}
+/* single players paragraph*/
+.one-player p {
+	margin: 0;
+	padding-bottom: 18px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #6C6C6C;
+}
+/* single players img */
+.one-player-img img {
+	transition: 0.5s;
+	width: 100%;
+	height: 100%;
+}
+.one-player-img:hover img {
+	overflow: hidden;
+}
+
+/*end of middle part*/
+
+/*Bonus part*/
+.who-we-are-area {
+    padding-top: 40px;
+    background: #FFF;
+    padding-bottom: 70px;
+}
+.who-we-are-text h2 {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	color: #0A0826;
+	margin-bottom: 8px;
+}
+.who-we-are-text p {
+	letter-spacing: -0.02em;
+	max-width: 80%;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6C6C6C;
+}
+.who-we-are-area:hover .button a {
+	background: #3DBAFD;
+	margin-left: 10px;
+}
+.hero-image img{
+    width: 100%;
+}
+/*end of the bonus part*/
+
+/* Footer part */
+.footer{
+    background: #FFF;
+    padding-top: 50px;
+    padding-bottom: 63px;
+}
+.footer-content {
+	text-align: center;
+}
+.icon-footer ul {
+    display: -webkit-box;
+	display: -ms-flexbox; 
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center; 
+}
+.icon-footer ul li {
+	list-style: none;
+}
+.icon-footer ul li a {
+	background: #E7E7E8;
+	margin: 5px 7px;
+	height: 35px;
+	width: 35px;
+    display: -webkit-box;
+	display: -ms-flexbox; 
+	display: flex;
+     -webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;  
+	justify-content: center;
+	border-radius: 50%;
+	color: #969BAB; 
+}
+.icon-footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon-footer ul li a:hover {
+    background: #2D25A0;
+    color: #FFFF;
+}
+.footer-content p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+/* end of the footer part */
